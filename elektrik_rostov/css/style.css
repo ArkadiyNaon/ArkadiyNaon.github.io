@@ -177,3 +177,38 @@ p{
 	color: white;
 	font-size: 20px;
 }
+
+@media (max-width: 991.98px) {
+
+h1{
+	font-size: 30px;
+	text-align: center;
+}
+h2{
+	font-size: 20px;
+}
+a{
+
+}
+
+.logo{
+	text-align: center;
+}
+
+.phone{
+	text-align: center;
+}
+
+.main-title p{
+	font-size: 20px;
+	text-align: center;
+}
+.main-title span{
+	margin-left: 10%;
+	padding: 0px 0px;
+	width: 80%;
+}
+.main-form p{
+	font-size: 15px;
+}
+}
