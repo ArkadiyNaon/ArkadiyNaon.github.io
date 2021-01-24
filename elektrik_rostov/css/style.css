@@ -1,0 +1,252 @@
+html{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #fcfcf;
+}
+
+main{
+
+}
+section{
+	padding: 30px 0;
+}
+
+h1{
+	font-size: 60px;
+	margin-top: 0;
+}
+h2{
+	font-size: 30px;
+}
+h3{
+	margin:50px 0; 
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+a{
+	display: inline-block;
+	text-decoration: none;
+	font-size: 15px;
+}
+p{
+	font-size: 20px;
+}
+
+.header{
+	margin-top: 0px;
+}
+.logo a{
+	display: block;
+	margin:0; 
+	color: black;
+	font-size: 35px;
+}
+.logo p{
+	margin-top: -5px;
+	font-size: 15px;
+	font-weight: lighter;
+}
+
+.soc a{
+	margin-top: 50%;
+	margin: 0 3px; 
+	padding: 2px 5px;
+}
+.soc a:hover{
+	background-color: orange;
+	border-radius: 5px;
+	transition: 0.2s;
+}
+.soc img{
+	height: 30px;
+}
+.phone_button a{
+	display: block;
+	margin: 15px 0;
+	padding: 5px 10px;
+	width: 100%;
+	outline:none;
+	background-color: green; 
+	border-radius: 50px;
+	color: white;
+	font-size: 20px;
+	font-weight: lighter;
+}
+
+.phone{
+	text-align: right;
+}
+
+.phone a{
+	display: block;
+	color: black;
+	font-size: 25px;
+	font-weight: bold;
+}
+.phone p{
+	margin-top: 0px;
+	font-size: 15px;
+	font-weight: lighter;
+}
+
+.modal-body input{
+	display: block;
+	margin: 15px 0;
+	padding: 10px 20px;
+	width: 100%;
+	outline:none;
+	border: 1px solid green;
+	border-radius: 50px;
+}
+.modal-body button{
+	display: block;
+	margin: 15px 0;
+	padding: 10px 20px;
+	width: 100%;
+	outline:none;
+	background-color: green;
+	border: 1px solid green;
+	border-radius: 50px;
+	color: white;
+	font-size: 20px;
+}
+
+.menu{
+	border-top: 1px solid orange;
+	border-bottom: 1px solid orange;
+}
+.menu a{
+	margin: 0 20px;
+	color: #333;
+	font-size: 20px;
+	font-weight: lighter;
+}
+.menu a:hover{
+	color: orange;
+}
+
+.main-content{
+	margin: 30px 0;
+	
+}
+.main-title p{
+	margin: 50px 0; 
+	font-size: 25px;
+}
+
+.main-title span{
+	display: inline-block;
+	margin: 0 0 30px 0; 
+	padding: 15px 15px;
+	width: 150px;
+	text-align: center;
+	font-size: 18px;
+	background-color: green;
+	border-radius: 5px;
+	color: white;
+}
+
+.main-form{
+	padding: 20px 15px;
+	text-align: center;
+	border: 2px solid orange;
+	border-radius: 20px;
+	background-color: orange;
+	box-shadow: 0 5px 15px orange;
+
+}
+.main-form input{
+	display: block;
+	margin: 15px 0;
+	padding: 10px 20px;
+	width: 100%;
+	outline:none;
+	border: 1px solid green;
+	border-radius: 50px;
+}
+.main-form button{
+	display: block;
+	margin: 15px 0;
+	padding: 10px 20px;
+	width: 100%;
+	outline:none;
+	background-color: green;
+	border: 1px solid green;
+	border-radius: 50px;
+	color: white;
+	font-size: 20px;
+}
+
+.advantage p{
+	font-weight: lighter;
+}
+
+.advantage img{
+	margin: 50px 0;
+	height: 100px;
+}
+
+.prise{
+
+}
+
+.good{
+
+}
+
+.my_work{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 991.98px) {
+
+h1{
+	font-size: 30px;
+	text-align: center;
+}
+h2{
+	font-size: 20px;
+}
+a{
+
+}
+
+.logo{
+	text-align: center;
+}
+
+.phone{
+	text-align: center;
+}
+
+.main-title p{
+	font-size: 20px;
+	text-align: center;
+}
+.main-title span{
+	margin-left: 10%;
+	padding: 0px 0px;
+	width: 80%;
+}
+.main-form p{
+	font-size: 15px;
+}
+}
