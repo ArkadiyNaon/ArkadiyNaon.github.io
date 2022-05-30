@@ -1,0 +1,198 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	background-color: #F9F9F9; 
+}
+
+h1{
+	font-size: 45px;
+	font-weight: bold;
+	margin-bottom: 16px;
+}
+
+h2{
+	font-size: 35px;
+	margin-bottom: 30px;
+}
+h3{
+	font-size: 25px;
+}
+
+a{
+	text-decoration: none;
+	font-size: 18px;
+}
+p{
+	font-size: 18px;
+}
+li{
+	list-style: none;
+	font-size: 18px;
+}
+section{
+	margin-top: 100px;
+}
+
+.btn{
+	padding: 16px 32px;
+	background-color: #104B83;
+	color: white;
+	border-radius: 0px;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.header{
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding: 10px 0;
+	background-color: white;
+	z-index: 100;
+}
+.menu{
+	text-align: center;
+}
+.menu a{
+	margin-right: 24px;
+}
+.menu a:last-child{
+	margin-right: 0;
+}
+.number{
+	text-align: right;
+}
+.title{
+
+}
+
+.title p{
+	margin-bottom: 24px;
+}
+.title button{
+	margin-bottom: 48px;
+}
+
+.features{
+	padding: 48px 0 64px 0;
+	background-color: #104B83;
+}
+.features h2{
+	color: white;
+}
+.features-card{
+	margin-bottom: 24px;
+	padding: 24px 24px 16px 24px;
+	background-color: white;
+}
+
+
+
+
+.furniture{
+
+}
+
+.furniture-card{
+
+}
+.info{
+	padding: 24px;
+	background-color: white;
+}
+.name{
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+}
+
+.period, .order, .about-us {
+	padding: 48px 0;
+	background-color: #104B83;
+	color: white;
+}
+
+.completed-work img{
+	width: 100%;
+	margin-bottom: 24px;
+}
+.completed-work-card{
+	background-color: white;
+	margin-bottom: 48px;
+}
+.completed-work-card img{
+	width: 100%;
+}
+.completed-work-card-info{
+	padding:10px 20px;
+}
+.img-card{
+	display: flex;
+	justify-content: space-between;
+}
+
+.order{
+
+}
+
+
+.partners img{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.question{
+
+}
+
+.question-card{
+	margin-bottom: 48px;
+	padding: 24px;
+	background-color: white;
+}
+
+@media (max-width: 575.98px) { 
+	h1{
+		font-size: 30px;
+	}
+	h2{
+		font-size: 25px;
+	}
+	h3{
+		font-size: 20px;
+	}
+	p{
+		font-size: 16px;
+	}
+	a{
+		font-size: 16px;
+	}
+	.title{
+		margin-top: 50px;
+	}
+	.title button{
+	width: 100%;
+	}
+}
+
+@media (max-width: 768.98px) {
+	h1{
+		
+	}
+	h2{
+		font-size: 25px;
+	}
+	h3{
+		font-size: 20px;
+	}
+	p{
+		font-size: 22px;
+	}
+	a{
+		font-size: 22px;
+	}
+
+
+}
